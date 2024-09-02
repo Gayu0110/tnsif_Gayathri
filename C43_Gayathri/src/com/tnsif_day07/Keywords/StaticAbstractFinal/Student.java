@@ -1,5 +1,5 @@
 package com.tnsif_day07.Keywords.StaticAbstractFinal;
-bstract class value{
+abstract class value{
 	void show() {
 		System.out.println("Abstract");
 	}
