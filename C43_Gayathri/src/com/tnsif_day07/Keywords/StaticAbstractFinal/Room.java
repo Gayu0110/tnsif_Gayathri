@@ -4,7 +4,7 @@ abstract class value{
 		System.out.println("Abstract");
 	}
 }
-class Room extends value{
+public class Room extends value{
      void demo() {
     	 System.out.println("Print");
      }
@@ -16,6 +16,11 @@ public class Student {
 		Room obj=new Room();
 		obj.show();
 		obj.demo();
+	}
+
+	public int getPer() {
+		// TODO Auto-generated method stub
+		return 0;
 	}
 	}
 }
