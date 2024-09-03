@@ -3,7 +3,7 @@ package com.tnsif_day12.multithreading;
 
 		public static void main(String[] args) {
 			//Using implementable class : it is used to declare a class that implements an interface
-			UsingRunnable obj = new UsingRunnable();
+			UsingRunnable obj = new UsingRunnable(10,20,"Hello");
 			
 			Runnable runnable = new Runnable() {
 				@Override

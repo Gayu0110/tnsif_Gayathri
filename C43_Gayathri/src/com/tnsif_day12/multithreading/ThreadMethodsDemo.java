@@ -1,11 +1,11 @@
 package com.tnsif_day12.multithreading;
-import com.tnsif_day11.threadandmultithread.ChildThread;
+import com.tnsif_day11.threadandmultithread.Childthread;
 
 public class ThreadMethodsDemo {
 
 	public static void main(String[] args) {
-		ChildThread threadOne = new ChildThread(5, "First"); //creating child thread object
-		ChildThread threadTwo = new ChildThread(10, "Second"); // creating child thread object
+		Childthread threadOne = new Childthread(5, "First"); //creating child thread object
+		Childthread threadTwo = new Childthread(10, "Second"); // creating child thread object
 		System.out.println("Current Thread: " + Thread.currentThread()); // returns current thread
 		
 		threadOne.start();
